@@ -14,7 +14,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@amityco/ts-sdk": "0.0.1-beta.15",
+    "@amityco/ts-sdk": "^0.0.1-beta.16",
     "@expo/vector-icons": "^12.0.0",
     "@react-navigation/bottom-tabs": "^6.0.5",
     "@react-navigation/native": "^6.0.2",

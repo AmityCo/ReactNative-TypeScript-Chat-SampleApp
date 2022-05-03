@@ -45,7 +45,7 @@ export default function ChatRoomScreen({ route, }: RootTabScreenProps<'ChatRoom'
         messageArray = []
         for (let data of result.data) {
 
-          let textMessage:string = data?.data['text']
+          let textMessage:Any = data?.data['text']
           let message = {
             _id: data?.messageId,
             text: textMessage,
@@ -78,7 +78,7 @@ export default function ChatRoomScreen({ route, }: RootTabScreenProps<'ChatRoom'
 
           messageArray = []
           for (let data of result.data) {
-         
+
             messageArray.push({
               _id: data?.messageId,
               text: data.data['text'],
